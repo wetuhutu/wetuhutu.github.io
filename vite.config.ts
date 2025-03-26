@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/', // 适配Netlify部署环境
+  base: '/wetuhutu.github.io',
   plugins: [
     vue({
       include: [/\.vue$/, /\.md$/],
